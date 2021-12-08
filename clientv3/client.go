@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"go.etcd.io/etcd/clientv3/credentials"
-	"go.etcd.io/etcd/clientv3/internal/endpoint"
-	"go.etcd.io/etcd/clientv3/internal/resolver"
+	"go.etcd.io/etcd/clientv3/endpoint"
+	"go.etcd.io/etcd/clientv3/resolver"
 	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
 	"go.uber.org/zap"
 	"google.golang.org/grpc"
